@@ -1,0 +1,69 @@
+.cards-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 37px;
+
+  list-style: none;
+}
+
+.card {
+  background-color: #fff;
+
+  border: 1px solid var(--color-black-primary);
+  border-radius: 22px;
+
+  padding: 26px;
+  max-height: 440px;
+
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+.card>.card__thumbnail {
+  width: 100%;
+  height: 100%;
+  border-radius: 22px;
+  max-height: 160px;
+
+  margin-bottom: 36px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card>.card__thumbnail img {
+  height: auto;
+  width: 100%;
+}
+
+.card>.card__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: var(--text-black-dark);
+
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.card>.card__body,
+.card__footer>.card__date,
+.card__footer>.card__topic {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card__footer>.card__date::after {
+  font-family: 'Poppins', sans-serif;
+  content: "•";
+  display: inline-block;
+  margin: 8px;
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}

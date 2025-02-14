@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Writings for Developers</title>
+    <link rel="stylesheet" href="./shared/styles/fonts.css" />
+    <link rel="stylesheet" href="./shared/styles/index.css" />
+    <link rel="stylesheet" href="./shared/components/navbar.css" />
+    <link rel="stylesheet" href="./shared/components/filtersbar.css" />
+    <link rel="stylesheet" href="./shared/components/cards-list.css" />
+
+    <link rel="stylesheet" href="./sections/hero.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <p>writings.dev</p>
+
+        <ul>
+          <li class="navbar__item">categories</li>
+          <li class="navbar__item">articles</li>
+          <li class="navbar__item">about</li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="container">
+      <div class="hero">
+        <img
+          class="logo"
+          src="./assets/logo.png"
+          alt=""
+          width="195px"
+          height="205px"
+        />
+        <h1 class="title">Writings for Developers</h1>
+        <h2 class="subtitle">
+          Curated collection of articles for busy developers
+        </h2>
+      </div>
+    </section>
+
+    <aside class="filtersbar">
+      <div class="filtersbar__container">
+        <div class="filtersbar__actions">
+          <button><img src="./assets/grid-icon.svg" alt="" /></button>
+          <button><img src="./assets/list-icon.svg" alt="" /></button>
+        </div>
+        <ul class="filtersbar__list">
+          <li class="filtersbar__item">JavaScript</li>
+          <li class="filtersbar__item">DevOps</li>
+          <li class="filtersbar__item">Cloud</li>
+          <li class="filtersbar__item">Terraform</li>
+          <li class="filtersbar__item">Architecture</li>
+          <li class="filtersbar__item">Scalability</li>
+          <li class="filtersbar__item">Explainers</li>
+        </ul>
+      </div>
+    </aside>
+
+    <section class="container">
+      <ul class="cards-list">
+        <li class="card">
+          <div class="card__thumbnail">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/0350/0828/5709de425cf702f1221e8a649f819070?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=FUoPvDZS5ZmHRDSmfQSxEsR0gOLRUG3TlHefmp8b--W-l8abGEsdTKGk1MaCQ73lZVRGkwQ0IdqEIdR4dvCRwc3ZN-QCzqc3FrrIzdwvmcD2HvOgbp1r90mFAKPHdqTXke6xLXVQ7BdV0S6VHV51u8rci3ZnEXvzlDscJ2xE~RroEeOCbu8od2NzIQUoyGkZoZPfdkD0q1t0rVMYXTjEbN29-aA2T~tmfGypmz2LDX7MCiC8lGt7kA-CmHwpod-qtusH5vWS2qymwSZH2zMk7RWMXKPvzpC8wD~DQIAxUd5We-qmHmjGUgO3NwELVODo7-JFaMMyGj6dt93chtmTVw__"
+              alt=""
+            />
+          </div>
+          <h3 class="card__title">
+            Build continuous integration pipelines with GitHub Actions
+          </h3>
+          <p class="card__body">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </p>
+          <div class="card__footer">
+            <time class="card__date" datetime="">June 24, 2022</time>
+            <span class="card__topic">DevOps</span>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__thumbnail">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/9ed2/efce/17168c652b8637395e58effe720967e1?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=VbXNzoduuvEiz-7s5iD10oJ3zgHdPQEWe8sCvXA2qleWSJ2DpoD88k1yy4vmWoGZqQiFVqsBRryseW7TqBp5hB8KZKt3JNO2j219XazQuaSAS49TxP5Zu5-hDkd5KazDMfYdNX8UuoQxvQjyNuD4ScagBanK07GMWavLZL6rLobYyxAuI3zthsEtOJHg~Fogs7FH9xl3ZLCuKJbvv1gKlPoGe8m7nNY64-5KHmRJoT39~8~TshzNiQnBDYejhQHL~nf0zANdelxXn2KWTFJ5pp9akZvaKChKslDuTambG6u0S-61-293FNLM2zUVqeE11QHMANltItPYxTOGw0hWcw__"
+              alt=""
+            />
+          </div>
+          <h3 class="card__title">Python for the Absolute beginners</h3>
+          <p class="card__body">
+            Python is the most popular programming language out there and it is
+            used for so many different industries.
+          </p>
+          <div class="card__footer">
+            <time class="card__date" datetime="">June 24, 2022</time>
+            <span class="card__topic">DevOps</span>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__thumbnail">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/44ca/40c3/175d81087739c4de7be46af6fe4750f3?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pB4y7OetEdvx-5x4RcZyi1nw8phoBun6ry-KiHtbSCLSsF~xkvbzEuJbbbctELan7M5UtW398lE6rez7nH-lID-PBCqVDk6CoKlPlqYoX64qsKDWD7rtIydVnFomq8AalxyYzIeeqOR9lnbUFFSYdiy-hJmY-gc8Fw3s49StUDdn3YJ16SoRtB2my5ANdwD48C~0fIgK99fjELjSizclSMVIVv-yJPGImEJ5q7e0sY15EnwWeq96VyohlQD~qmlVXGWnqFXmrEYNm0ogACYzvaFQxeWYQmHoSDCIvP1a0ZEXqAjulo70Yf-TZiFhyeJNqeL0GHriXyC5bPj0dWUG9A__"
+              alt=""
+            />
+          </div>
+          <h3 class="card__title">Docker from Zero to Hero</h3>
+          <p class="card__body">
+            Learn what is Docker and how Docker is used in the whole software
+            development process.
+          </p>
+          <div class="card__footer">
+            <time class="card__date" datetime="">June 24, 2022</time>
+            <span class="card__topic">DevOps</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>

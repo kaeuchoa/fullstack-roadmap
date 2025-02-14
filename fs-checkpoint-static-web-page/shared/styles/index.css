@@ -1,0 +1,36 @@
+:root {
+  --color-black-primary: #232830;
+  --color-black-dark: #0F1217;
+
+  --color-red-primary: #FF7575;
+  --color-gray-dark: #4D4D4D;
+  --color-gray-primary: #909090;
+
+  --text-sm: 19px;
+  --text-base: 24px;
+  --text-lg: 30px;
+  --text-3xl: 71px;
+
+  --text-red-primary: var(--color-red-primary);
+  --text-gray-primary: var(--color-gray-primary);
+  --text-black-dark: var(--color-black-dark);
+
+  --container-mw: 1236px;
+}
+
+html {
+  background-color: var(--color-black-primary);
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: var(--container-mw);
+  width: 100%;
+  margin: 0 auto;
+}
+

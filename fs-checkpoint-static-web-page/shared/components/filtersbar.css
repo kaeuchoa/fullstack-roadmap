@@ -1,0 +1,54 @@
+.filtersbar {
+  display: grid;
+
+  padding: 20px 0;
+
+  grid-template-columns: minmax(100%, var(--container-mw));
+
+  border-top: 3px solid var(--color-gray-dark);
+
+  margin-bottom: 100px;
+}
+
+.filtersbar__container {
+  max-width: var(--container-mw);
+  margin: 0 auto;
+}
+
+.filtersbar ul {
+  list-style: none;
+}
+
+.filtersbar__actions {
+  display: inline-flex;
+  gap: 13px;
+}
+
+.filtersbar button {
+  width: 24px;
+  height: 24px;
+
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+
+  border: none;
+}
+
+.filtersbar__list {
+  display: inline-flex;
+  margin-left: 40px;
+}
+
+.filtersbar__item {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: var(--text-base);
+  line-height: 33px;
+  color: var(--text-gray-primary);
+
+  padding-right: 36px;
+}
