@@ -5,6 +5,7 @@
   --color-red-primary: #FF7575;
   --color-gray-dark: #4D4D4D;
   --color-gray-primary: #909090;
+  --color-light-blue-primary: #4699E0;
 
   --text-sm: 19px;
   --text-base: 24px;
@@ -32,5 +33,9 @@ li {
   max-width: var(--container-mw);
   width: 100%;
   margin: 0 auto;
+}
+
+.main-section {
+  min-height: 2753px;
 }
 

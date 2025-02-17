@@ -1,0 +1,31 @@
+.footer {
+  height: calc(68px + 127px);
+  padding-top: 30px;
+
+  border-top: 1px solid #4D4D4D;
+
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.copy-rights {
+  font-family: "Source Code Pro", serif;
+  color: #fff;
+
+  font-weight: 600;
+  font-size: var(--text-lg);
+  line-height: 38px;
+}
+
+.tag {
+  background-color: var(--color-light-blue-primary);
+  font-family: "Source Code Pro", serif;
+  color: #fff;
+  font-size: var(--text-sm);
+  line-height: 24px;
+
+  min-height: 34px;
+  border-radius: 5px;
+  padding: 6px 8px;
+}
